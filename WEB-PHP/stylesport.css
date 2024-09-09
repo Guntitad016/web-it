@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+nav{
+   padding: 1rem;
+   background-color: #333;
+}
+
+.nav-con{
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo a{
+   font-size: 2rem;
+   color: #fff;
+   text-decoration: none;
+}
+
+.menu{
+   display: flex;
+   list-style: none;
+   align-items: center;
+}
+
+.menu li{
+   margin: 0 1rem;
+}
+
+.menu li a{
+   color: #fff;
+   text-decoration: none;
+}
+
+.maincontent{
+   background-color: #d0c0c0;
+}
+
+.maincontent-con{
+   display: flex;
+}
+
+.maincontent-info{
+   width: 100%;
+   padding: 2rem;
+}
+
+.maincontent-info h3{
+   font-size: 2rem;
+}
+
+.maincontent-info p{
+   margin: 1rem 0;
+}
+
+.maincontent-img{
+   width: 100%;
+   padding: 2rem;
+}
+
+.footer{
+   margin-top: 2rem;
+   padding: 3rem;
+   background-color: #8b8989;
+   color: #000000;
+   
+}
+
+.footer-con{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 2rem;
+}
+
+.footer-location h3{
+   font-size: 2rem;
+}
+
+
+.footer-contract h3{
+   font-size: 2rem;
+}
+
+.footer-agency h3{
+   font-size: 2rem;
+}

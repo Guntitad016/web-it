@@ -1,0 +1,70 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ h3{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+ }
+
+ .container{
+    margin: 0 auto;
+ }
+
+ nav{
+    background-color: red;
+    color: black;
+    height: 80px;
+ }
+
+ .nav-con{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+ }
+
+ ul.menu{
+    display: flex;
+    list-style: none;
+ }
+
+ ul.menu li{
+   margin: 0 1rem;
+ }
+
+ ul.menu li a{
+    color: yellow;
+    text-decoration: none;
+ }
+
+ .footer{
+   margin-top: 2rem;
+   padding: 3rem;
+   background-color: #8b8989;
+   color: #000000;
+   
+}
+
+.footer-con{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 2rem;
+}
+
+.footer-location h3{
+   font-size: 2rem;
+}
+
+
+.footer-contract h3{
+   font-size: 2rem;
+}
+
+.footer-agency h3{
+   font-size: 2rem;
+}
